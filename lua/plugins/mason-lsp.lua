@@ -61,6 +61,9 @@ return {
       lspconfig.volar.setup(opts)
       lspconfig.kotlin_language_server.setup(opts)
       lspconfig.prismals.setup(opts)
+      lspconfig.jdtls.setup(opts)
+      lspconfig.jsonls.setup(opts)
+      lspconfig.yamlls.setup(opts)
 
       -- keybindings
       vim.keymap.set('n','K',vim.lsp.buf.hover,{})
