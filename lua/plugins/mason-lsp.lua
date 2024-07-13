@@ -15,7 +15,7 @@ return {
           "lua_ls", "rust_analyzer", "angularls", "clangd", "cssls",
           "dockerls", "gopls", "html","tsserver","intelephense",
           "pyright", "sqls","tailwindcss", "templ", "svelte", "volar",
-          "kotlin_language_server", "prismals",
+          "kotlin_language_server", "prismals","jdtls","jsonls","yamlls",
         }
       })
     end
