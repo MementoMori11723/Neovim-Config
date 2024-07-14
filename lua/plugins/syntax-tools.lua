@@ -8,6 +8,7 @@
 -- emmet-vim : it will provide you with code completion for html, css, and javascript.
 -- indent-blankline : it will provide you with indentation guides.
 -- bufferline : it will provide you with a buffer line at the top of the screen.
+-- barbecue : it will provide you with a file explorer.
 
 return {
   -- autopairs
@@ -151,5 +152,18 @@ return {
       })
       vim.keymap.set("n", "<leader>t", ":BufferLinePick<CR>", { noremap = true, silent = true })
     end,
+  },
+  -- barbecue
+  {
+    "utilyre/barbecue.nvim",
+    name = "barbecue",
+    version = "*",
+    dependencies = {
+      "SmiteshP/nvim-navic",
+      "nvim-tree/nvim-web-devicons", -- optional dependency
+    },
+    opts = {
+      -- configurations go here
+    },
   },
 }
