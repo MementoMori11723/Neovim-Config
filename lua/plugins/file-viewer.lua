@@ -24,6 +24,13 @@ return {
 				},
         use_libuv_file_watcher = true,
 			},
+      window = {
+        position = "left",
+        size = 40,
+        focus = true,
+        quit_on_open = false,
+        side = "vertical",
+      },
 		})
     vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>", { noremap = true, silent = true })
 	end,

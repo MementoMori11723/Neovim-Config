@@ -13,5 +13,6 @@ vim.cmd("set clipboard=unnamedplus")
 vim.cmd("set autoindent")
 vim.cmd("set smartindent")
 vim.cmd("set filetype=on")
+vim.cmd("set cursorline")
 vim.g.mapleader = " "
 
