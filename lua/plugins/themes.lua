@@ -1,3 +1,7 @@
+-- plugins : for themes.
+--
+-- everforest : A green based theme.
+
 return {
   "sainnhe/everforest",
   config = function()

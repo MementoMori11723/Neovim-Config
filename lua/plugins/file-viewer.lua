@@ -1,4 +1,11 @@
---installing neo-tree
+-- plugins : for file viewer.
+--
+-- nvim-neo-tree : A file viewer for neovim.
+-- nvim-lua/plenary.nvim : A lua library for neovim.
+-- nvim-tree/nvim-web-devicons : A file viewer for neovim.
+-- MunifTanjim/nui.nvim : A UI library for neovim.
+-- 3rd/image.nvim : A image viewer for neovim.
+
 return {
 	"nvim-neo-tree/neo-tree.nvim",
 	branch = "v3.x",
@@ -18,8 +25,6 @@ return {
         use_libuv_file_watcher = true,
 			},
 		})
-
-    -- keymap
-		vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>", { noremap = true, silent = true })
+    vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>", { noremap = true, silent = true })
 	end,
 }

@@ -1,3 +1,10 @@
+-- plugins : for debugger.
+--
+-- nvim-dap : A debugger for neovim.
+-- nvim-dap-go : A debugger for go.
+-- nvim-dap-ui : A UI for nvim-dap.
+-- nvim-nio : A test runner for neovim.
+
 return {
   "mfussenegger/nvim-dap",
   dependencies = {
