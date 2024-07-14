@@ -25,7 +25,7 @@ return {
         use_libuv_file_watcher = true,
 			},
       window = {
-        position = "left",
+        position = "right",
         size = 40,
         focus = true,
         quit_on_open = false,
