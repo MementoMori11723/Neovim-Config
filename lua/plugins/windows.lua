@@ -40,4 +40,17 @@ return {
 			require("telescope").load_extension("ui-select")
 		end,
 	},
+	{
+		"mistricky/codesnap.nvim",
+		build = "make build_generator",
+		opts = {},
+		config = function()
+			require("codesnap").setup({
+				save_path = "~/Pictures",
+				has_breadcrumbs = true,
+				has_line_number = true,
+				bg_theme = "grape", -- "bamboo", "grape", "ocean", "dusk", "summer", "peach"
+			})
+		end,
+	},
 }
