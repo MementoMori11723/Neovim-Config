@@ -3,8 +3,11 @@
 -- markdown-preview.nvim : Preview markdown files in browser
 -- telescope.nvim : Fuzzy finder for neovim
 -- telescope-ui-select.nvim : UI for telescope
+-- codesnap.nvim : Code snippet generator
+-- toggleterm.nvim : Terminal in a floating window
 
 return {
+  -- markdown-preview
 	{
 		"iamcco/markdown-preview.nvim",
 		cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
@@ -14,6 +17,7 @@ return {
 		end,
 		vim.keymap.set("n", "<C-m>", ":MarkdownPreviewToggle<CR>", { noremap = true, silent = true }),
 	},
+  -- telescope
 	{
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.8",
@@ -27,6 +31,7 @@ return {
 			vim.keymap.set("n", "<C-p>", builtin.find_files, {})
 		end,
 	},
+  -- telescope-ui-select
 	{
 		"nvim-telescope/telescope-ui-select.nvim",
 		config = function()
@@ -40,6 +45,7 @@ return {
 			require("telescope").load_extension("ui-select")
 		end,
 	},
+  -- codesnap
 	{
 		"mistricky/codesnap.nvim",
 		build = "make build_generator",
@@ -52,5 +58,12 @@ return {
 				bg_theme = "grape", -- "bamboo", "grape", "ocean", "dusk", "summer", "peach"
 			})
 		end,
+	},
+  -- toggleterm
+	{
+		"akinsho/toggleterm.nvim",
+		version = "*",
+		config = true,
+    vim.keymap.set("n", "<C-t>", ":ToggleTerm<CR>", { noremap = true, silent = true }),
 	},
 }
