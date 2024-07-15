@@ -64,6 +64,7 @@ These are the keybindings that I use:
 | `leader + d` | debug code                                |
 | `leader + m` | open meson                                |
 | `leader + j` | open jupyter-lab                          |
+| `leader + f` | format code                               |
 | `gcc`        | (in normal mode) to comment and uncomment |
 | `gc`         | (in visual mode) to comment and uncomment |
 
