@@ -46,6 +46,8 @@ these are the plugins that I use:
 | [vim-fugitive](https://github.com/tpope/vim-fugitive)                      | git commands                  |
 | [lazygit](https://github.com/kdheepak/lazygit.nvim)                        | git ui                        |
 | [ToggleTerm](https://github.com/akinsho/toggleterm.nvim)                   | Terminal                      |
+| [Noice](https://github.com/folke/noice.nvim)                               | Cmdline                       |
+| [Vim-Dadbod](https://github.com/tpope/vim-dadbod)                          | Database                      |
 
 > _**Note**_ : These are the plugins that I use, you can add or remove plugins as you like. and I didn't mention the configuration for each plugin, you can find it in the `plugins` directory.
 
@@ -53,20 +55,24 @@ these are the plugins that I use:
 
 These are the keybindings that I use:
 
-| Keybinding   | Description                               |
-| ------------ | ----------------------------------------- |
-| `Ctrl + p`   | fuzzy finder                              |
-| `Ctrl + n`   | toggle file explorer                      |
-| `Ctrl + t`   | toggle-terminal                           |
-| `Ctrl + m`   | toggle markdown preview                   |
-| `leader + g` | git ui                                    |
-| `leader + b` | add break point                           |
-| `leader + d` | debug code                                |
-| `leader + m` | open meson                                |
-| `leader + j` | open jupyter-lab                          |
-| `leader + f` | format code                               |
-| `gcc`        | (in normal mode) to comment and uncomment |
-| `gc`         | (in visual mode) to comment and uncomment |
+| Keybinding         | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `Ctrl + p`         | fuzzy finder                                           |
+| `Ctrl + n`         | toggle file explorer                                   |
+| `Ctrl + t`         | toggle-terminal                                        |
+| `Ctrl + m`         | toggle markdown preview                                |
+| `leader + g`       | git ui                                                 |
+| `leader + b`       | add break point                                        |
+| `leader + d`       | debug code                                             |
+| `leader + m`       | open meson                                             |
+| `leader + j`       | open jupyter-lab                                       |
+| `leader + f`       | format code                                            |
+| `leader + ca`      | code action                                            |
+| `leader + nd`      | dismiss noice messages                                 |
+| `gcc`              | (in normal mode) to comment and uncomment              |
+| `gc`               | (in visual mode) to comment and uncomment              |
+| `shift + k` or `K` | to see the definetion of howering function or variable |
+| `gd`               | Go to definition                                       |
 
 > _**Note**_ : These are the keybindings that I use, you can add or remove keybindings as you like. and I didn't mention the configuration for each keybinding, you can find it in the `plugins` directory.
 
