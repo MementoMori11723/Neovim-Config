@@ -150,7 +150,8 @@ return {
           always_show_bufferline = false,
         },
       })
-      vim.keymap.set("n", "<leader>t", ":BufferLinePick<CR>", { noremap = true, silent = true })
+      vim.keymap.set("n", "<C-f>", ":BufferLinePick<CR>", { noremap = true, silent = true })
+      vim.keymap.set("n", "<leader>t", ":BufferLineCloseOthers<CR>", { noremap = true, silent = true })
     end,
   },
   -- barbecue
