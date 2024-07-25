@@ -16,4 +16,6 @@ vim.cmd("set filetype=on")
 vim.cmd("set cursorline")
 vim.g.mapleader = " "
 
+vim.cmd("colorscheme habamax")
+
 vim.keymap.set('n','<leader>j',':terminal jupyter-lab<CR>',{noremap = true, silent = true})
