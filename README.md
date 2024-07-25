@@ -61,6 +61,8 @@ These are the keybindings that I use:
 | `Ctrl + n`         | toggle file explorer                                   |
 | `Ctrl + t`         | toggle-terminal                                        |
 | `Ctrl + m`         | toggle markdown preview                                |
+| `Ctrl + O`         | Select files open in buffer                            |
+| `Ctrl + g`         | Grep finder                                            |
 | `leader + g`       | git ui                                                 |
 | `leader + b`       | add break point                                        |
 | `leader + d`       | debug code                                             |
