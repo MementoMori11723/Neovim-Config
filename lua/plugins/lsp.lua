@@ -39,6 +39,7 @@ return {
 					"jdtls",
 					"jsonls",
 					"yamlls",
+          "htmx-lsp",
 				},
 			})
 		end,
@@ -90,6 +91,7 @@ return {
 			lspconfig.jdtls.setup(opts)
 			lspconfig.jsonls.setup(opts)
 			lspconfig.yamlls.setup(opts)
+      lspconfig.htmx.setup(opts)
 
 			-- keybindings
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})

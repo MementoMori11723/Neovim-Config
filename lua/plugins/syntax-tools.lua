@@ -129,6 +129,9 @@ return {
     "lukas-reineke/indent-blankline.nvim",
     main = "ibl",
     opts = {},
+    config = function ()
+      vim.g.indent_blankline_filetype_exclude = { "help", "packer", "dashboard" }
+    end
   },
   -- bufferline
   {
