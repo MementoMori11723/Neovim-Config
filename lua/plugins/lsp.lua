@@ -39,7 +39,6 @@ return {
 					"jdtls",
 					"jsonls",
 					"yamlls",
-          "htmx-lsp",
 				},
 			})
 		end,
