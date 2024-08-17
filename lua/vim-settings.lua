@@ -17,3 +17,4 @@ vim.cmd("set cursorline")
 vim.g.mapleader = " "
 
 vim.keymap.set('n','<leader>j',':terminal jupyter-lab<CR>',{noremap = true, silent = true})
+vim.keymap.set('n','<leader>k',':DBUIToggle<CR>',{noremap = true, silent = true})

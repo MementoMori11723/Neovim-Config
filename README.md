@@ -71,6 +71,7 @@ These are the keybindings that I use:
 | `leader + f`       | format code                                            |
 | `leader + ca`      | code action                                            |
 | `leader + nd`      | dismiss noice messages                                 |
+| `leader + k`       | to connect to database                                 |
 | `gcc`              | (in normal mode) to comment and uncomment              |
 | `gc`               | (in visual mode) to comment and uncomment              |
 | `shift + k` or `K` | to see the definetion of howering function or variable |
