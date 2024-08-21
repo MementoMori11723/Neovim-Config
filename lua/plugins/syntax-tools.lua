@@ -125,11 +125,15 @@ return {
     end,
   },
   -- indent-blankline
-  {
-    "lukas-reineke/indent-blankline.nvim",
-    main = "ibl",
-    opts = {},
-  },
+	{
+		"lukas-reineke/indent-blankline.nvim",
+		main = "ibl",
+		opts = {
+      indent = {
+        char = '│',
+      },
+		},
+	},
   -- bufferline
   {
     "akinsho/bufferline.nvim",
