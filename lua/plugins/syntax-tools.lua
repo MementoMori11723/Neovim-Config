@@ -105,9 +105,8 @@ return {
   -- emmet-vim
   {
     "mattn/emmet-vim",
-    ft = { "html", "css", "javascript", "typescript", "javascriptreact", "typescriptreact" },
+    ft = { "html", "css", "javascript", "typescript", "javascriptreact", "typescriptreact", "templ", "tmpl" },
     config = function()
-      vim.g.user_emmet_leader_key = ","
       vim.g.user_emmet_settings = {
         javascript = {
           extends = "jsx",

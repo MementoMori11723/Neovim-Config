@@ -40,6 +40,7 @@ return {
           "jsonls",
           "yamlls",
           "emmet_ls",
+          "solidity",
         },
       })
     end,
@@ -93,6 +94,7 @@ return {
       lspconfig.yamlls.setup(opts)
       lspconfig.htmx.setup(opts)
       lspconfig.emmet_ls.setup(opts)
+      lspconfig.solidity.setup(opts)
 
       -- keybindings
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
