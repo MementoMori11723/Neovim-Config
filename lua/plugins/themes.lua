@@ -4,7 +4,7 @@
 
 return {
   {
-    "github.com/sainnhe/everforest",
+    "neanias/everforest-nvim",
   },
 	{
 		"rose-pine/neovim",
