@@ -4,25 +4,26 @@
 
 return {
   {
-    "neanias/everforest-nvim",
+    "lancewilhelm/horizon-extended.nvim",
+    priority = 1000,
+    config = function()
+      vim.cmd("colorscheme horizon-extended")
+    end,
   },
-	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-		config = function()
-			vim.cmd("colorscheme rose-pine-moon")
-		end,
-	},
-	{
-		"ellisonleao/gruvbox.nvim",
-		priority = 1000,
-		config = true,
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    config = true,
     opt = {
       bold = true,
       italic = true,
       underline = true,
       undercurl = true,
       contrast = "hard",
-    }
-	},
+    },
+  },
 }
