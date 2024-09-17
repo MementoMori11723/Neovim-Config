@@ -120,6 +120,9 @@ return {
         typescriptreact = {
           extends = "jsx",
         },
+        templ = {
+          extends = "html",
+        },
       }
     end,
   },

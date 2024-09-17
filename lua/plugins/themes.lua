@@ -3,6 +3,9 @@
 -- rose-pine : it's a theme for neovim.
 
 return {
+  {
+    "github.com/sainnhe/everforest",
+  },
 	{
 		"rose-pine/neovim",
 		name = "rose-pine",

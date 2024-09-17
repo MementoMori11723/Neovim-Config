@@ -26,7 +26,7 @@ return {
           "dockerls",
           "gopls",
           "html",
-          "tsserver",
+          "ts_ls",
           "intelephense",
           "pyright",
           "sqls",
@@ -79,7 +79,7 @@ return {
         },
       })
       lspconfig.html.setup(opts)
-      lspconfig.tsserver.setup(opts)
+      lspconfig.ts_ls.setup(opts)
       lspconfig.intelephense.setup(opts)
       lspconfig.pyright.setup(opts)
       lspconfig.sqls.setup(opts)
