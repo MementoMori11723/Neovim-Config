@@ -140,7 +140,11 @@ return {
     config = function()
       require("bufferline").setup({
         options = {
-          numbers = "ordinal",
+          numbers = "none",
+          mappings = true,
+          close_command = "bdelete! %d",
+          middle_mouse_command = "bdelete! %d",
+          right_mouse_command = "vertical sbuffer %d",
           diagnostics = "nvim_lsp",
           diagnostics_indicator = function(count, level, diagnostics_dict, context)
             return "(" .. count .. ")"
